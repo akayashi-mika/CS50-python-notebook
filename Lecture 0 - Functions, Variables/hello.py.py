@@ -59,3 +59,6 @@ name    =   input("What's your name? ").strip().title()     # Ask the user for t
 print(f'hello, {name}')
 
 ### Split ###
+
+first, last = name.split(' ')
+print(f'hello, {first}')
